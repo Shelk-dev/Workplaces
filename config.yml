@@ -1,0 +1,40 @@
+
+Workplaces:
+  Farming:
+    Circle-Location: "world;10;50;10"
+    Price: 10
+    Amount: 10
+  Fishing:
+    Circle-Location: "world;10;10;10"
+    Price: 10
+    Amount: 1
+    Fish-Names:
+      - "salmon"
+      - "cod"
+  Mining:
+    Circle-Location: "world;10;10;10"
+    Price: 10
+    Amount: 10
+    Pickaxe-To-Receive: DIAMOND_PICKAXE
+  Mob-Hunting:
+    Circle-Location: "world;10;10;10"
+    SKELETON:
+      Price: 10
+    ZOMBIE:
+      Price: 20
+    WITHER_SKELETON:
+      Price: 30
+
+Command:
+  Usage: "/arbete join <workplace>"
+  Workplace-Not-Found: "This workplace doesn't exist !"
+  Already-In: "You are already in this workplace !"
+
+Messages:
+  Entered-Fishing-Workplace: "You entered the Fishing Workplace."
+  Entered-Mining-Workplace: "You entered the Mining Workplace."
+  Entered-Farming-Workplace: "You entered the Farming Workplace."
+  Entered-Mob-Hunting-Workplace: "You entered the Mob Hunting Workplace."
+  Got-Fish-Message: "You caught a {fish} !"
+  Received-Fish: "You received a {randomly-selected-fish} for $10"
+  Money-Earned-Actionbar: "{time} | {amount}$"
